@@ -1,0 +1,17 @@
+{
+  "Name": "Worm Holes",
+  "Author": "Aba Gamer + (VTXG help me a lot during the process)",
+  "Description": "Adds a new teleporting feature to black holes",
+  "InstallDependencies": ["Syati_ObjectFactories", "Syati_Init"],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "ExtBlackHole",
+          "Function" : "NameObjFactory::createNameObj<BlackHole>",
+          "Include" : "ExtBlackHole.h"
+        }
+      ]
+    }
+  ]
+}
